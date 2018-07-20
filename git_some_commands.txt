@@ -1,0 +1,57 @@
+===========INITIALIZE A NEW REPOSITORY IN GIT===========
+1. Create a new repository on GitHub.
+
+2. Open Git Bash.
+
+3. Change the current working directory to your local project.
+
+4. Initialize the local directory as a Git repository. -> 
+$ git init
+
+5. Add the files in your new local repository. This stages them for the first commit. ->
+$ git add .
+
+6. Commit the files that you've staged in your local repository. ->
+$ git commit -m "First commit"
+
+7. At the top of your GitHub repository's Quick Setup page, click  to copy the remote repository URL.
+
+8. In the Command prompt, add the URL for the remote repository where your local repository will be pushed. ->
+$ git remote add origin remote repository URL
+$ git remote -v
+
+9.Push the changes in your local repository to GitHub. ->
+$ git push origin master
+
+
+===========REMOVING A REMOTE===========
+
+These examples assume you're cloning using HTTPS, which is recommended.
+
+$ git remote -v
+# View current remotes
+
+$ git remote rm destination
+# Remove remote
+
+$git remote -v
+# Verify it's gone
+
+
+===========CREATE A NEW BRANCH WITH GIT AND MANAGE BRANCHES===========
+
+If we want to add all files in the folder we use this command -> 
+$ git add . 
+#If we want to add specific file we put the name of file instead of "."
+
+Next we must commit the files or file so we use this command ->
+$ git commit -m "some text here"
+
+The last step to upload to server of github we use this command->
+$ git push 
+(
+In this step if you have this error-> 
+fatal: The current branch master has no upstream branch.
+You must create the origin remote with this command->
+$git remote add origin url-to-your-repo
+)
