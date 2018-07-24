@@ -39,3 +39,26 @@ $git remote -v
 
 
 ===========CREATE A NEW BRANCH WITH GIT AND MANAGE BRANCHES===========
+
+$git branch
+# View available brances
+
+$git branch new_branch
+# Create a new branch. Where new_branch is your new branch
+
+$git checkout new_branch
+# Switch to the new_branch.(You will recognize that if you right the git branch command and see the asterisk on the left of the branch that you are)
+
+# When you are in new branch you can do changes in your code and then you just do the following commands
+
+$git add new_file
+
+$git commit -m "some text if you want"
+
+$git branch new_branch
+# Create a new branch. Where new_branch is your new branch
+
+
+
+
+
