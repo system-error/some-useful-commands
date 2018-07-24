@@ -39,19 +39,3 @@ $git remote -v
 
 
 ===========CREATE A NEW BRANCH WITH GIT AND MANAGE BRANCHES===========
-
-If we want to add all files in the folder we use this command -> 
-$ git add . 
-#If we want to add specific file we put the name of file instead of "."
-
-Next we must commit the files or file so we use this command ->
-$ git commit -m "some text here"
-
-The last step to upload to server of github we use this command->
-$ git push 
-(
-In this step if you have this error-> 
-fatal: The current branch master has no upstream branch.
-You must create the origin remote with this command->
-$git remote add origin url-to-your-repo
-)
