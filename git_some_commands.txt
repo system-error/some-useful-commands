@@ -44,7 +44,9 @@ $git branch
 # View available brances
 
 $git branch new_branch
-# Create a new branch. Where new_branch is your new branch
+# Create a new branch. Where new_branch is your new branch.
+# If you want to create and switch it in same time the new branch you should right this command 
+$git checkout -b new_branch
 
 $git checkout new_branch
 # Switch to the new_branch.(You will recognize that if you right the git branch command and see the asterisk on the left of the branch that you are)
@@ -53,10 +55,11 @@ $git checkout new_branch
 
 $git add new_file
 
-$git commit -m "some text if you want"
+$git commit -m "some text if you want" new_file 
+# If you forget to put "" in the commit command automaticaly the git bash opens the vi editor to right a comment. When you finish presh ESC and next to quit and save press :wq
 
-$git branch new_branch
-# Create a new branch. Where new_branch is your new branch
+$git branch -d new_branch
+# Delete a branch. Where new_branch is your new branch
 
 
 
