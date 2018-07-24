@@ -61,6 +61,8 @@ $git commit -m "some text if you want" new_file
 $git branch -d new_branch
 # Delete a branch. Where new_branch is your new branch
 
+$git push origin new_branch
+# Send the new branch in github. Where new_branch is your new branch
 
 
 
