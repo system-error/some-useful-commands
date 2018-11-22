@@ -1,6 +1,6 @@
 pwd
 ls -a
-ls -al
+ls -al (check files in folder with detail )
 cd ~
 which ls
 help cd
@@ -10,10 +10,14 @@ cat (name of file that we want to see inside)
 echo "Hello World"
 echo "Hello World" > (file that we want to put the "Hello World" information)
 cat (name of file that we want to see inside)
-echo "Hello World" >> (file that we want to append the "Hello World" information again in the file )
+echo "Hello World" >> (file that we want to append the "Hello World" information 
+
+again in the file )
 less (name of file that we want to see inside)
 cp -> (copy a file) (already existed file) (create a new file with different name) 
-mv (move to other destination the file or rename it) (file that we want to move or rename it) (name of new file or destination of the moving file)
+mv (move to other destination the file or rename it) (file that we want to move or 
+
+rename it) (name of new file or destination of the moving file)
 rm (name of file that we want to remove)
 rmdir -> (removes a folder) (name of folder)
 rm -rf (force delete the folder with all its contents)
@@ -30,7 +34,9 @@ to quit the editor without save the changes we press :q!
 
 download the repo from the github to git in the computer 
 
-git clone (paste the path of repository in github) (name of folder that you want to put the repo, if you don't write something it takes the name of repo)
+git clone (paste the path of repository in github) (name of folder that you want to put 
+
+the repo, if you don't write something it takes the name of repo)
 inside the folder of repo in you computer 
 git status
 git log
@@ -43,3 +49,9 @@ git config --global core.editor (editor that we want to work with git)
 git config --global core.editor (see what editor is set it from git)
 git config --global --list (information for git in github)
 git config --global -e (information for git in github inside the set editor)
+
+ssh -T git@github.com (check if the ssh key is correctly generated)
+
+Create a new repo from git
+
+git init (the name of new repo)
